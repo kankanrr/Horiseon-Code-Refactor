@@ -5,10 +5,11 @@
 <img src="./assets/images/logo.PNG" width=40% height=40%>
 
 ## About This Webpage
-
+- - - -
 This webpage is the homepage of Horiseon Social Services, Inc. Horiseon is a company that provides services regarding `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`
 
 ## Sourcecode Problems
+- - - -
 
 While working with this company, upon reviewing their sourcecode we were left with errors within the HTML code. Our criteria to fix this problem is as followed:
 
@@ -74,5 +75,6 @@ Further reviewing the code, we also found the `header` section which was incorre
     ```
 
 ## Conclusion
+- - - -
 
 After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view at: https://kankanrr.github.io/hw1-code-refactor/

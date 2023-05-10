@@ -22,12 +22,12 @@ While working with this company, upon reviewing their sourcecode we were left wi
 Upon reviewing the code we did find `HTML elements`. However, the structure was incorrect and the `image attributes` showed up missing as show below:
 
 ```
-<div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
+    <div class="benefits">
+        <div class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" />
             <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
 ```
@@ -43,3 +43,36 @@ Further reviewing the code, we also found the `header` section which was incorre
 ```
 
 ### Approaching the problems
+
+* **Replacing placeholder `div`(s) to add correct element information**
+    * We added elements such as `figure` for images & images with captions
+    * Added the `section` elements to correctly group the code
+    * Added `alt` attribute for easy identification of the image
+    * Replaced `<p></p>` with `<figcaption></figcaption>` because this is a caption which describes the image
+
+    ```
+        <section class="benefits">
+        <figure class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="placeholder stock image" />
+            <figcaption>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </figcaption>
+        </figure>
+    ```
+
+* **Reviewing & Revising Header element**
+    * We corrected the order of the header by placing `<title>website</title>` before we link to a stylesheet
+    * Replaced placeholder title and added a new descriptive title: `Horiseon Social Solution Services, Inc.
+
+    ```
+    <head>
+        <meta charset="UTF-8" />
+        <title>Horiseon Social Solution Services, Inc.</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    ```
+
+## Conclusion
+
+After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view at: https://kankanrr.github.io/hw1-code-refactor/

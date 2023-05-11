@@ -2,7 +2,7 @@
 
 <!-- ![Horiseon Logo](./assets/images/logo.PNG) -->
 
-<img src="./assets/images/logo.PNG" width=40% height=40%>
+<img src="./assets/images/logo.PNG" alt="Horiseon Logo" width=40% height=40%>
 
 ## About This Webpage
 - - - -

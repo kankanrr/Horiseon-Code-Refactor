@@ -77,4 +77,4 @@ Further reviewing the code, we also found the `header` section which was incorre
 ## Conclusion
 - - - -
 
-After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view at: https://kankanrr.github.io/hw1-code-refactor/
+After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view at: https://kankanrr.github.io/Horiseon-Code-Refactor/
